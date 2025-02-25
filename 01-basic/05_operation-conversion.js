@@ -28,13 +28,21 @@ const str2 = "Mehata"
 
 // console.log(1 + 3 + 3 + "2");          /* in this seen first 3 digit add as number than it we be string*/
 
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+
 let gamecounter = 10 /* let is addable and changeable*/
 ++gamecounter
 console.log(gamecounter);
 
 
 
-
+// link to study
+// prefix and postfix js mdn
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
 
 
 
