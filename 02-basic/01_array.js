@@ -26,25 +26,65 @@ const newarray = myArray.join() /* .join make array to string */
 
 
 // slice & splice add and remove some contant
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 1. splice()
 
+// The splice() method is used to add, remove, or replace elements in an array. It modifies the original array and can change its length.
 
-console.log("A ",  myArray);
+// Syntax:
 
-const myn1 = myArray.slice(1, 3)
-console.log(myn1);
+// javascript
+// Copy
+// array.splice(start, deleteCount, item1, item2, ...)
 
-console.log("B ",  myArray);
+// Parameters:
+// start: The index at which to start changing the array.
 
+// deleteCount: The number of elements to remove (optional).
 
+// item1, item2, ...: The elements to add to the array (optional).
 
+// Example:
 
-const myn2 = myArray.splice(1, 3)
+// javascript
+// Copy
+// let fruits = ["Apple", "Banana", "Cherry", "Date"];
+// fruits.splice(2, 1, "Orange", "Grapes"); // Starts at index 2, removes 1 item, and adds "Orange" and "Grapes".
+// console.log(fruits);  // Output: ["Apple", "Banana", "Orange", "Grapes", "Date"]
+// Here, splice():
 
-console.log("C ",  myArray);
+// Removes the item at index 2 ("Cherry"),
 
-console.log(myn2);
+// Adds "Orange" and "Grapes" at the same position.
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// 2. slice()
+// The slice() method is used to create a shallow copy of a portion of an array. It does not modify the original array and returns a new array.
+
+// Syntax:
+
+// javascript
+// Copy
+// array.slice(start, end)
+// Parameters:
+
+// start: The index at which to begin the extraction (inclusive).
+
+// end: The index at which to end the extraction (exclusive, optional).
+
+// Example:
+
+// javascript
+// Copy
+// let fruits = ["Apple", "Banana", "Cherry", "Date"];
+// let newFruits = fruits.slice(1, 3); // Creates a new array from index 1 to 3 (exclusive).
+// console.log(newFruits);  // Output: ["Banana", "Cherry"]
+// Here, slice():
+
+// Creates a new array starting from index 1 and ending just before index 3.
+
+// The original fruits array is not modified.
 
 
 

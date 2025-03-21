@@ -29,9 +29,9 @@ let myDate = new Date()
 
 // console.log(myNewCreatDate.toLocaleString());
 
-// let myNewtDateTime = new Date(2025, 0, 19, 7, 2) /* to difine date and time */
+// let myNewtDateTime = new Date(2025, 0, 19, 7, 10) /* to difine date and time */
 
-// console.log(myNewtDateTime.toLocaleString());
+console.log(myNewtDateTime.toLocaleString());
 
 
 let bob = new Date("2025-02-25")
@@ -47,16 +47,16 @@ const myTimestamp = Date.now()
 // console.log(Math.floor (Date.now()/1000));
 
 
-const newdate = new Date(2025, 3, 5)
-console.log(newdate.getFullYear());
-console.log(newdate.getDate());
-console.log(newdate.getMonth());
-console.log(newdate.getTime());
+// const newdate = new Date(2025, 3, 5)
+// console.log(newdate.getFullYear());
+// console.log(newdate.getDate());
+// console.log(newdate.getMonth());
+// console.log(newdate.getTime());
 
- newdate.toLocaleString("default", {
-    weekday: "long",
-    dateStyle: "full"
- })
+//  newdate.toLocaleString("default", {
+//     weekday: "long",
+//     dateStyle: "full"
+//  })
 
 
 
