@@ -1,5 +1,5 @@
 /* there are two typs of objects and we can decealer type
- constucter = singlton  +++++ object.create
+ constucter = singlton  +++++ object.create ,,,, const newuser = new Object()
 
   literal =
 
@@ -26,10 +26,10 @@ const mySym = Symbol("key1")
  }
  //  console.log(jsUser)
  //  console.log(jsUser.addres)
-//  console.log(jsUser["email"]) /* two ways to get object velue */
+//  console.log(jsUser["email"]) /* two ways to get object value */
 //  console.log(jsUser["fullname"])
 
-/* how to chanage velue just put = */ 
+/* how to chanage value just put = */ 
 jsUser.addres = "talwara"
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // velue freez
